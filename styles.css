@@ -1,0 +1,30 @@
+.container {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+.container div {
+  margin: 0;
+  width: 10px;
+  height: 10px;
+  
+}
+
+main {
+  justify-content: center;
+  padding-top: 200px;
+  display: flex;
+}
+
+.hoverClass {
+  background: blue;
+}
